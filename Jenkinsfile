@@ -2,7 +2,7 @@ pipeline {
         agent any
 	stages {
  		stage("Run the code!") {
-  			steps }
+  			steps {
 				sh """
 					python calculator.py
 				"""
